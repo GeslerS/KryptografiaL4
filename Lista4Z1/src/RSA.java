@@ -20,6 +20,8 @@ public class RSA {
 			System.out.println("Aby zaszyfrowac plik: prog enc plikDoZaszyfrowania plikWynikowy");
 			System.out.println("Aby zdeszyfrować plik: prog dec zaszyfrowanyPlik plikWynikowy");
 			}
+		
+		
 		if (args[0].equals("gen")) {
 			KeyGen.generateKey(Integer.parseInt(args[2]), Integer.parseInt(args[1]));
 			System.out.println("Wygenerowano klucze! ");

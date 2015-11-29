@@ -13,7 +13,8 @@ public class KeyGen {
 
 		BigInteger n, phi, e, d;
 		n = ONE;
-		phi = ONE;
+		phi = ONE;  
+		
 		BigInteger p[] = new BigInteger[quanity];
 		random = new SecureRandom();
 		for (int i = 0; i < quanity; i++) {
